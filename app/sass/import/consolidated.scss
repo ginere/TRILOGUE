@@ -1,0 +1,66 @@
+/**
+ * Consolidated View. Titles ...
+ */
+
+.con-title-1 {
+	font-size: 1.5em;
+	display: block;
+	font-weight: bold;
+}
+
+.con-title-2 {
+	font-size: 1.4em;
+	display: block;
+	font-weight: bold;
+}
+
+@for $i from 3 through 15 {
+	$value:1.5-$i/15;
+	
+	.con-title-#{$i} {
+		font-size: 1em * $value;
+		font-weight: bold;
+	}
+}
+
+
+.con-section-1 {
+	margin-bottom:20px;
+}
+
+.con-section-2 {
+	margin-bottom:20px;
+	margin-top:8px;
+}
+
+@for $i from 3 through 15 {
+	
+	.con-section-#{$i} {
+		margin-top:4px;
+		margin-bottom:8px;
+		padding-left: 4px;
+	}
+}
+
+.con-body-1 {
+    //font-weight: bold;
+	padding: 3px;
+}
+
+.con-body-2 {
+	padding: 3px;
+}
+
+.editable.selected {
+	background-color: $selected-background-color !important;
+	border: 1px solid #369;
+	z-index: 10;
+
+	padding: 2px;
+    border: 1px solid navy;
+    display: block;
+
+	border-radius: 3px;
+
+}
+

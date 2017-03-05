@@ -1,0 +1,19 @@
+{
+	"LANG":"en",
+
+	"APPLICATION_TITLE":"TEST",	
+	"PROJECT_YEAR":"2016",
+	"PROJECT_NAME":"test",
+	"PROJECT_VERSION":"TEST v0.0b",
+	"PROJECT_AUTOR":"The team",
+
+	"TITLE":"Default Page Title",
+	"DESCRIPTION":"Default page description",
+	"KEYWORDS":"Default keywords",
+	"AUTHOR":"The team",
+
+	"CSS_PATH":"./css",
+	"JS_PATH":"./js",
+	"VENDORS_PATH":"./vendors"
+
+}

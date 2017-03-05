@@ -1,0 +1,75 @@
+/**
+ * Fixed Top Menu bar
+ *
+ * http://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fixed_menu	
+ */
+#menu {
+	
+}
+
+#menu .menu-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+	
+	z-index: 10;
+	display:box;
+
+	margin: 0;
+    padding: 10px;
+
+    overflow: hidden;
+
+    list-style-type: none;
+
+	/*    background-color: #CCC; */
+	background-color: rgba(230, 244, 255, 0.89);
+	
+	background: -webkit-linear-gradient(top, rgba(230, 244, 255,1), rgba(230, 244, 255,0.89));
+	background: -o-linear-gradient(top, rgba(230, 244, 255,1), rgba(230, 244, 255,0.89));
+	background: -moz-linear-gradient(top, rgba(230, 244, 255,1), rgba(230, 244, 255,0.89));
+	background: linear-gradient(top, rgba(230, 244, 255,1), rgba(230, 244, 255,0.89));
+	
+	border: 1px #c5e4ff solid;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #999;
+    position: fixed;
+    top: 0;
+    width: 100%;
+	z-index: 10;
+}
+
+#menu li {
+    float: left;
+}
+
+#menu li a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+}
+
+
+div.menu-bar {
+	.selected {
+		background-color: $selected-background-color !important;
+		border: 1px solid #369;
+		z-index: 10;
+	}
+}
+
+
+/*
+ .main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px; 
+}
+*/

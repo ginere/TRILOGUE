@@ -1,0 +1,5 @@
+<div class="con-section-{{node.level}}">
+<span class="con-title-{{node.level}}">{{node.title}}</span>
+<span {{#row.id}}id="con-{{.}}"{{/row.id}} class="con-body-{{node.level}} editable" {{#row.id}}data-row="{{.}}"{{/row.id}} >{{cell.text}}</span>
+{{{childsHtml}}}
+</div>

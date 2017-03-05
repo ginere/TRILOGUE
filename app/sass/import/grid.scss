@@ -1,0 +1,44 @@
+
+thead.ep  {
+	th#ep {
+		background-color: $selected-background-color !important;
+		border: 1px solid #369;
+	}
+}
+
+thead.ceu  {
+	th#ceu {
+		background-color: $selected-background-color !important;
+		border: 1px solid #369;
+	}
+}
+
+thead.ec  {
+	th#ec {
+		background-color: $selected-background-color !important;
+		border: 1px solid #369;		
+	}
+}
+
+// thead.ep  {
+// 	td.ep {
+// 		background-color: $selected-background-color !important;
+// 		border: 1px solid #369;		
+// 	}
+// }
+
+// thead.ep  {
+// 	tr.even {
+// 		background-color: $selected-background-color !important;
+// 		td.ep {
+// 			background-color: $selected-background-color !important;
+// 			border: 1px solid #369;		
+// 		}
+// 	}
+// }
+
+
+tr.selected {
+	background-color: $selected-background-color !important;
+	border: 1px solid #369;	
+}

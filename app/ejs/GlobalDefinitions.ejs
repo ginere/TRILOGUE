@@ -1,0 +1,46 @@
+<% // -*- javascript -*-
+
+render={};
+
+// Do the html clean
+render.includeHtml=function(fileName){
+	var html=include(fileName);
+
+	return htmlclean(html);
+};
+
+// Include the html into js code
+render.includeHtmlJs=function(fileName){
+	var html=render.includeHtml(fileName);
+	html=html.replace(/"/g, '\\"');
+	html=html.replace(/'/g, "\\'");
+
+	return html;
+};
+
+// Include the html into js code
+render.htmlToJs=function(html){
+	html=htmlclean(html);
+	html=html.replace(/"/g, '\\"');
+	html=html.replace(/'/g, "\\'");
+
+	return html;
+};
+
+render.partial=function(name){
+ 	return render.includeHtmlJs(name);
+};
+
+// render.pageJs=function(name){
+// 	return render.includeHtmlJs(config.PATH+'/ejs/templates-js/'+name);
+// };
+//
+// render.partialJs=function(name){
+// 	return render.includeHtmlJs(config.PATH+'/ejs/templates-js/'+name);
+// };
+//
+// render.layoutJs=function(name){
+// 	return render.includeHtmlJs(config.PATH+'/ejs/templates-js/'+name);
+// };
+
+%>
