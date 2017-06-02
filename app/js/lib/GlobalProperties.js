@@ -4,7 +4,7 @@
  */
 'use strict';
 
-/*global document:false, sessionStorage: false, console: false, alert: false, $: false, window: false, jQuery:false,  location:false, debugger:false, navigator:false, localStorage:false */
+console.log("Loading file:GlobalProperties.js ...");/*global document:false, sessionStorage: false, console: false, alert: false, $: false, window: false, jQuery:false,  location:false, debugger:false, navigator:false, localStorage:false */
 
 var SINGLETON={};
 

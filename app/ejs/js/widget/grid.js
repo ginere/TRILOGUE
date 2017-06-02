@@ -10,7 +10,7 @@ var $ = require('jquery');
 var Q = require('q');
 
 var log = require('../lib/log');
-var Error = require('../lib/Error');
+var Error = require('../lib/error');
 
 var Widget = require('../lib/widget');
 var Scroll = require('../lib/scroll-to');

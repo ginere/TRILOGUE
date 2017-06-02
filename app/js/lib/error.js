@@ -2,7 +2,7 @@
  * This handle Promisses and errors
  */
 
-/*global document:false, sessionStorage: false, console: false, alert: false, $: false, window: false, jQuery:false,  location:false, debugger:false, navigator:false, localStorage:false */
+console.log("Loading file:error.js ...");/*global document:false, sessionStorage: false, console: false, alert: false, $: false, window: false, jQuery:false,  location:false, debugger:false, navigator:false, localStorage:false */
 
 var Q = require('q');
 

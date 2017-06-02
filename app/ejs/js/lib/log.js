@@ -10,9 +10,11 @@ var SINGLETON={};
 
 function inner(f,levelText,text,err){
 	if (typeof err !== 'undefined') {
-		f(levelText+" "+text+err);
+		// f(levelText+" "+text+err);
+        console.info(levelText+" "+text+err);
 	} else {
-		f(levelText+" "+text);
+    //f(levelText+" "+text);
+        console.info(levelText+" "+text);
 	}
 }
 

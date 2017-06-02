@@ -76,6 +76,7 @@
     "htmlclean": "^2.7.8",
     "jquery": "^3.1.1",
     "normalize.css": "^5.0.0",
+    "pretty-hrtime": "^1.0.3",
     "q": "^1.4.1"
   }
 }

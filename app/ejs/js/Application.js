@@ -9,7 +9,7 @@ var $ = require('jquery');
 var $q = require('q');
 
 var log = require('./lib/log');
-var Error = require('./lib/Error');
+var Error = require('./lib/error');
 
 var Store = require('./store/Store');
 var Selection = require('./store/Selection');

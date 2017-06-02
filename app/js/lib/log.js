@@ -3,16 +3,18 @@
  */
 'use strict';
 
-/*global document:false, sessionStorage: false, console: false, alert: false, $: false, window: false, jQuery:false,  location:false, debugger:false, navigator:false, localStorage:false */
+console.log("Loading file:log.js ...");/*global document:false, sessionStorage: false, console: false, alert: false, $: false, window: false, jQuery:false,  location:false, debugger:false, navigator:false, localStorage:false */
 
 var SINGLETON={};
 
 
 function inner(f,levelText,text,err){
 	if (typeof err !== 'undefined') {
-		f(levelText+" "+text+err);
+		// f(levelText+" "+text+err);
+        console.info(levelText+" "+text+err);
 	} else {
-		f(levelText+" "+text);
+    //f(levelText+" "+text);
+        console.info(levelText+" "+text);
 	}
 }
 

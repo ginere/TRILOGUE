@@ -3,14 +3,14 @@
  */
 'use strict';
 
-/*global document:false, sessionStorage: false, console: false, alert: false, $: false, window: false, jQuery:false,  location:false, debugger:false, navigator:false, localStorage:false */
+console.log("Loading file:consolidated.js ...");/*global document:false, sessionStorage: false, console: false, alert: false, $: false, window: false, jQuery:false,  location:false, debugger:false, navigator:false, localStorage:false */
 
 
 var $ = require('jquery');
 var Q = require('q');
 
 var log = require('../lib/log');
-var Error = require('../lib/Error');
+var Error = require('../lib/error');
 
 var Display = require('../lib/display');
 
